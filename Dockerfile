@@ -6,7 +6,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /FILTER-BOT-Anjali 
-WORKDIR /FILTER-BOT-Anjali
-COPY . /FILTER-BOT-Anjali
+RUN mkdir /filter-bot-anjali- 
+WORKDIR /filter-bot-anjali-
+COPY . /filter-bot-anjali-
 CMD ["python", "bot.py"]
