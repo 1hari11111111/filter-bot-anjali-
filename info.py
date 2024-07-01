@@ -31,7 +31,7 @@ QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/ccb9db43e62a2e524928e.j
 START_IMG = environ.get('START_IMG', 'https://telegra.ph/file/7f3a650a3b980c493a25f.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002178278202'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002178278202'))
-URL = environ.get('URL', '')
+URL = environ.get('URL', 'https://t.me/moviesrequesttelugu_1')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 IS_VERIFY = is_enabled('IS_VERIFY', False)
@@ -58,7 +58,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002147535144'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002247658487')
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
-UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', ''))
+UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002178278202'))
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002247658487'))
 
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
